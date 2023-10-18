@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página Principal de Cursos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Enlaza a tu archivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Plataforma de Cursos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+                <li><a href="pagina-de-registro.html">Registrarse</a></li>
+                <!-- Reemplaza "pagina-de-registro.html" con la URL de tu página de registro. -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="courses">
+        <h2>Cursos Disponibles</h2>
+        <ul>
+            <li>
+                <h3>Curso de HTML y CSS</h3>
+                <p>Descripción del curso de HTML y CSS.</p>
+                <a href="pagina-de-registro.html" class="register-link">¡Regístrate!</a>
+            </li>
+            <!-- Agrega más cursos aquí -->
+        </ul>
+    </section>
+
+    <section class="signup">
+        <h2>Regístrate o Inicia Sesión</h2>
+        <form id="signup-form">
+            <input type="text" placeholder="Nombre de usuario" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="password" placeholder="Contraseña" required>
+            <button type="submit">Registrarse</button>
+        </form>
+
+        <form id="login-form">
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Derechos de autor © 2023 - Tu Plataforma de Cursos</p>
+    </footer>
+</body>
+</html>
